@@ -40,7 +40,7 @@ function App() {
             className="particle-effect-button"
             onClick={() => setHidden1(!hidden1)}
           >
-          <a href="https://github.com/bhavesh0327"><img style={{height: "35px"}} src={github} /></a>
+          <a href="https://github.com/bhavesh0327"><img style={{height: "35px"}} src={github} alt={"Github"} /></a>
           </button>
         </ParticleEffectButton>
         <ParticleEffectButton
@@ -50,7 +50,7 @@ function App() {
             className="particle-effect-button"
             onClick={() => setHidden2(!hidden2)}
           >
-          <a href="https://Linkedin.com/in/bhavesh0327"><img style={{height: "35px"}} src={linkedin} /></a>
+          <a href="https://Linkedin.com/in/bhavesh0327"><img style={{height: "35px"}} src={linkedin} alt={"Linkedin"} /></a>
           </button>
         </ParticleEffectButton>
         <ParticleEffectButton
@@ -61,7 +61,7 @@ function App() {
             onClick={() => setHidden3(!hidden3)}
           >
             <Mailto email="bhaveshmandhan3@gmail.com" subject="Let's Connect!" body="">
-            <img style={{height: "35px"}} src={mail} />
+            <img style={{height: "35px"}} src={mail} alt={"Mail"} />
             </Mailto>
           </button>
         </ParticleEffectButton>
@@ -72,7 +72,7 @@ function App() {
             className="particle-effect-button"
             onClick={() => setHidden4(!hidden4)}
           >
-          <a href="https://twitter.com/bhavesh0327"><img style={{height: "35px"}} src={twitter} /></a>
+          <a href="https://twitter.com/bhavesh0327"><img style={{height: "35px"}} src={twitter} alt={"Twitter"} /></a>
           </button>
         </ParticleEffectButton>
         <ParticleEffectButton
@@ -82,7 +82,7 @@ function App() {
             className="particle-effect-button"
             onClick={() => setHidden5(!hidden5)}
           >
-          <a href="https://mandhan.medium.com/"><img style={{height: "35px"}} src={medium} /></a>
+          <a href="https://mandhan.medium.com/"><img style={{height: "35px"}} src={medium} alt={"Medium"} /></a>
           </button>
         </ParticleEffectButton>
         <ParticleEffectButton
@@ -92,7 +92,7 @@ function App() {
             className="particle-effect-button"
             onClick={() => setHidden6(!hidden6)}
           >
-          <a href="https://instagram.com/mandhan_03"><img style={{height: "35px"}} src={instagram} /></a>
+          <a href="https://instagram.com/mandhan_03"><img style={{height: "35px"}} src={instagram} alt={"Instagram"} /></a>
           </button>
         </ParticleEffectButton>
       </div>
